@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hunav_msgs/srv/GetParameters.srv
+// generated code does not contain a copyright notice
+
+
+module hunav_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: empty (get all relevant parameters)")
+    struct GetParameters_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "Response: key parameters from hunav_loader")
+    struct GetParameters_Response {
+      boolean publish_people;
+
+      string map;
+
+      string simulator;
+
+      string yaml_base_name;
+
+      @verbatim (language="comment", text=
+        "Global goals as arrays for easier handling")
+      sequence<int64> goal_ids;
+
+      sequence<double> goal_x_coords;
+
+      sequence<double> goal_y_coords;
+    };
+  };
+};

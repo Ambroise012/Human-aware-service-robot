@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/nav2_social_costmap_plugin/ament_cmake_core/nav2_social_costmap_pluginConfig-version.cmake

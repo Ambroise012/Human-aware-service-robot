@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_generator_c/people_msgs/msg/detail/person_stamped__struct.h

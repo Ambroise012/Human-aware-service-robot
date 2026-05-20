@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hunav_msgs/srv/StartEvaluation.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module hunav_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "agents and robot")
+    struct StartEvaluation_Request {
+      geometry_msgs::msg::PoseStamped robot_goal;
+
+      @default (value="exp_1")
+      string experiment_tag;
+
+      @default (value=0)
+      int32 run_id;
+    };
+    struct StartEvaluation_Response {
+      boolean success;
+    };
+  };
+};

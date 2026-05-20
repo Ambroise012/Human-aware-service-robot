@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/hunav_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

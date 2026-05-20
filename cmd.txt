@@ -1,0 +1,87 @@
+killall -9 gzserver gzclient rviz2 2>/dev/null
+pkill -f hunav 2>/dev/null
+pkill -f ros2 2>/dev/null
+
+
+ros2 launch hunav_gazebo_wrapper simulation.launch.py
+
+
+
+pour editer distance etc. = fichier de config nav2 : 
+/home/ambroise/hunav_ws/src/hunav_gazebo_wrapper/launch/pmb2_params/pmb2_nav_public_sim.yaml
+
+
+recompiler: 
+cd ~/hunav_ws
+colcon build --packages-select hunav_gazebo_wrapper
+source install/setup.bash
+
+
+
+
+
+ambroise@ambroise-Zenbook-15-UM3504DA-UM3504DA:~/hunav_ws$ ros2 topic list | grep people
+/people
+ambroise@ambroise-Zenbook-15-UM3504DA-UM3504DA:~/hunav_ws$ ros2 topic echo /people --once
+header:
+  stamp:
+    sec: 160
+    nanosec: 593000000
+  frame_id: map
+people:
+- name: agent1
+  position:
+    x: 0.9087838977090502
+    y: -2.7311502768844123
+    z: -2.422107696533203
+  velocity:
+    x: -0.0034127472899854183
+    y: -0.0029901026282459497
+    z: 0.0
+  reliability: 1.0
+  tagnames:
+  - id
+  - group_id
+  - behavior
+  tags:
+  - '1'
+  - '-1'
+  - '1'
+- name: agent2
+  position:
+    x: -2.1918266130939976
+    y: -0.6254347116414817
+    z: -1.6967507600784302
+  velocity:
+    x: -0.2439444363117218
+    y: -1.9265146255493164
+    z: 0.013113021850585938
+  reliability: 1.0
+  tagnames:
+  - id
+  - group_id
+  - behavior
+  tags:
+  - '2'
+  - '-1'
+  - '1'
+- name: agent3
+  position:
+    x: -3.7021866746795467
+    y: 1.8914532629539904
+    z: -1.5633375644683838
+  velocity:
+    x: 0.011180037632584572
+    y: -1.4988853931427002
+    z: 0.0050067901611328125
+  reliability: 1.0
+  tagnames:
+  - id
+  - group_id
+  - behavior
+  tags:
+  - '3'
+  - '-1'
+  - '1'
+---
+

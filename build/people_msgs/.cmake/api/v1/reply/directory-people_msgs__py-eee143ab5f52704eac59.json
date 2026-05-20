@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "people_msgs__py",
+		"source" : "/home/ambroise/hunav_ws/build/people_msgs/people_msgs__py"
+	}
+}

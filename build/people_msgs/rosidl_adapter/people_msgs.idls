@@ -1,0 +1,5 @@
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/People.idl
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/Person.idl
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PersonStamped.idl
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PositionMeasurement.idl
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_adapter/people_msgs:msg/PositionMeasurementArray.idl

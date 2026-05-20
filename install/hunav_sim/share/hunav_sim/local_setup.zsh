@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/hunav_sim/ament_cmake_environment_hooks/local_setup.zsh

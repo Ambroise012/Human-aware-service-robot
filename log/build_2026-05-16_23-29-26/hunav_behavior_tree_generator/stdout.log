@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating hunav_behavior_tree_generator.egg-info
+writing hunav_behavior_tree_generator.egg-info/PKG-INFO
+writing dependency_links to hunav_behavior_tree_generator.egg-info/dependency_links.txt
+writing entry points to hunav_behavior_tree_generator.egg-info/entry_points.txt
+writing requirements to hunav_behavior_tree_generator.egg-info/requires.txt
+writing top-level names to hunav_behavior_tree_generator.egg-info/top_level.txt
+writing manifest file 'hunav_behavior_tree_generator.egg-info/SOURCES.txt'
+reading manifest file 'hunav_behavior_tree_generator.egg-info/SOURCES.txt'
+writing manifest file 'hunav_behavior_tree_generator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/lib/python3.10/site-packages/hunav-behavior-tree-generator.egg-link (link to .)
+Installing generator_cli script to /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/lib/hunav_behavior_tree_generator
+
+Installed /home/ambroise/hunav_ws/build/hunav_behavior_tree_generator
+running symlink_data
+creating /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/ament_index
+creating /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/ament_index/resource_index
+creating /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/ament_index/resource_index/packages
+symbolically linking /home/ambroise/hunav_ws/build/hunav_behavior_tree_generator/resource/hunav_behavior_tree_generator -> /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/ament_index/resource_index/packages
+symbolically linking /home/ambroise/hunav_ws/build/hunav_behavior_tree_generator/package.xml -> /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator
+creating /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator/prompts
+symbolically linking /home/ambroise/hunav_ws/build/hunav_behavior_tree_generator/hunav_behavior_tree_generator/prompts/BT_gen.txt -> /home/ambroise/hunav_ws/install/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator/prompts

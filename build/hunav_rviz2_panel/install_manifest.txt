@@ -1,0 +1,3 @@
+/home/ambroise/hunav_ws/install/hunav_rviz2_panel/lib/libhunav_rviz2_panel.so
+/home/ambroise/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelExport.cmake
+/home/ambroise/hunav_ws/install/hunav_rviz2_panel/share/hunav_rviz2_panel/cmake/hunav_rviz2_panelExport-noconfig.cmake

@@ -1,0 +1,9 @@
+source;share/hunav_behavior_tree_generator/hook/pythonpath.ps1
+source;share/hunav_behavior_tree_generator/hook/pythonpath.dsv
+source;share/hunav_behavior_tree_generator/hook/pythonpath.sh
+source;share/hunav_behavior_tree_generator/hook/ament_prefix_path.ps1
+source;share/hunav_behavior_tree_generator/hook/ament_prefix_path.dsv
+source;share/hunav_behavior_tree_generator/hook/ament_prefix_path.sh
+source;../../build/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator/hook/pythonpath_develop.ps1
+source;../../build/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator/hook/pythonpath_develop.dsv
+source;../../build/hunav_behavior_tree_generator/share/hunav_behavior_tree_generator/hook/pythonpath_develop.sh

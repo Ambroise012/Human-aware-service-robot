@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/hunav_msgs/rosidl_generator_rs/hunav_msgs/rust/build.rs

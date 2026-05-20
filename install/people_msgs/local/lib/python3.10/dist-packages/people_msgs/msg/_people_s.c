@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_generator_py/people_msgs/msg/_people_s.c

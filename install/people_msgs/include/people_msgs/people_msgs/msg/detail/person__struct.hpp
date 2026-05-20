@@ -1,0 +1,1 @@
+/home/ambroise/hunav_ws/build/people_msgs/rosidl_generator_cpp/people_msgs/msg/detail/person__struct.hpp
