@@ -1,3 +1,11 @@
+cd ~/hunav_ws
+
+colcon build --packages-select hunav_gazebo_wrapper
+
+source install/setup.bash
+
+
+
 killall -9 gzserver gzclient rviz2 2>/dev/null
 pkill -f hunav 2>/dev/null
 pkill -f ros2 2>/dev/null
