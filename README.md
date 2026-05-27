@@ -11,7 +11,10 @@ The project uses:
 * Social costmaps for human-aware navigation
 * PMB2 mobile robot simulation
 
----
+
+![Café Simulation](images/cafe.png)
+![Café Simulation](images/cafe2.png)
+![Café Simulation](images/rviz.png)
 
 # Features
 
@@ -22,8 +25,6 @@ The project uses:
 * Integration with Nav2 social costmaps
 * Human tracking through `/people` topic
 * Configurable navigation parameters and social distances
-
----
 
 # Workspace Structure
 
