@@ -1,1 +1,0 @@
-/home/ambroise/hunav_ws/build/people_msgs/rosidl_generator_rs/people_msgs/rust/src/lib.rs

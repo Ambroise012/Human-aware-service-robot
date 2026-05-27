@@ -1,3 +1,0 @@
-[console_scripts]
-generator_cli = hunav_behavior_tree_generator.generator_cli:main
-

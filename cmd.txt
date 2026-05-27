@@ -2,10 +2,19 @@ killall -9 gzserver gzclient rviz2 2>/dev/null
 pkill -f hunav 2>/dev/null
 pkill -f ros2 2>/dev/null
 
+find ~/hunav_ws -name generatedWorld.world
+rm /home/ambroise/hunav_ws/install/hunav_gazebo_wrapper/share/hunav_gazebo_wrapper/worlds/generatedWorld.world
+
+rm -rf build install log
+colcon build --symlink-install
+source install/setup.bash
+
+ros2 launch hunav_gazebo_wrapper simulation.launch.py environment_name:=cafe
+
 
 ros2 launch hunav_gazebo_wrapper simulation.launch.py
 
-
+ros2 launch hunav_gazebo_wrapper simulation.launch.py environment_name:=cafe
 
 pour editer distance etc. = fichier de config nav2 : 
 /home/ambroise/hunav_ws/src/hunav_gazebo_wrapper/launch/pmb2_params/pmb2_nav_public_sim.yaml
@@ -16,9 +25,16 @@ cd ~/hunav_ws
 colcon build --packages-select hunav_gazebo_wrapper
 source install/setup.bash
 
+rebuild full :
+cd ~/hunav_ws
+rm -rf build install log
+colcon build --symlink-install
+source install/setup.bash
 
+find ~/hunav_ws -name generatedWorld.world
+rm <chemin>
 
-
+src/hunav_gazebo_wrapper/launch/pmb2_params/pmb2_nav_public_sim.yaml
 
 ambroise@ambroise-Zenbook-15-UM3504DA-UM3504DA:~/hunav_ws$ ros2 topic list | grep people
 /people

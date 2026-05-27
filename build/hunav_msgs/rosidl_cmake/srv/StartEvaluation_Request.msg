@@ -1,4 +1,0 @@
-# agents and robot
-geometry_msgs/PoseStamped robot_goal
-string experiment_tag "exp_1"
-int32 run_id 0

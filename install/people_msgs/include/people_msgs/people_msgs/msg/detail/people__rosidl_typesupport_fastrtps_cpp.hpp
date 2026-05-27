@@ -1,1 +1,0 @@
-/home/ambroise/hunav_ws/build/people_msgs/rosidl_typesupport_fastrtps_cpp/people_msgs/msg/detail/people__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,1 +1,0 @@
-/home/ambroise/hunav_ws/build/people_msgs/ament_cmake_environment_hooks/local_setup.sh
