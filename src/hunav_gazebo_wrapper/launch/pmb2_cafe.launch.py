@@ -254,7 +254,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([pmb2_gazebo_launch]),
         launch_arguments={
             'robot_name':  robot_name,
-            'laser_model':  'sick-571-gpu', #scan_model,
+            'laser_model':  'sick-571', #scan_model,
             'add_on_module': 'rgbd-sensors',
             'is_public_sim': 'True',
             'use_sim_time': 'True',

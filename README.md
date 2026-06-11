@@ -7,10 +7,7 @@ The project uses:
 * ROS2
 * Gazebo
 * Nav2
-* HuNav (Human Navigation Simulator)
-* Social costmaps for human-aware navigation
-* PMB2 mobile robot simulation
-
+* HuNav Sim (Human Navigation Simulator)
 
 ![Café Simulation](images/cafe.png)
 ![Café Simulation](images/cafe2.png)
@@ -21,7 +18,6 @@ The project uses:
 * Autonomous navigation in a café environment
 * Human-aware path planning
 * Dynamic obstacle avoidance
-* Real-time pedestrian simulation
 * Integration with Nav2 social costmaps
 * Human tracking through `/people` topic
 * Configurable navigation parameters and social distances
@@ -59,10 +55,9 @@ Defines human agents in the café:
 * motion parameters
 
 ### `pmb2_nav_public_sim.yaml`
+Navigation Behavior
 
 Main Nav2 configuration file.
-
-This file is used to tune:
 
 * obstacle avoidance
 * social distances
@@ -71,8 +66,6 @@ This file is used to tune:
 * costmaps
 * navigation parameters
 * robot speed and safety margins
-
-This is the main file to edit for navigation behavior.
 
 
 # Build Instructions
@@ -106,7 +99,6 @@ colcon build --symlink-install
 source install/setup.bash
 ```
 
----
 
 # Cleaning Gazebo and ROS Processes
 
@@ -246,39 +238,6 @@ rm -rf build install log
 
 colcon build --symlink-install
 
-source install/setup.bash
-```
-
----
-
-# Technologies Used
-
-* ROS2 Humble
-* Gazebo
-* Nav2
-* HuNavSim
-* RViz2
-* Social Costmap Plugin
-* PMB2 Robot
-* YAML-based scenario configuration
-
-
-# Example Use Cases
-
-* Service robots in cafés
-* Human-aware navigation research
-* Social robotics experiments
-* Dynamic obstacle avoidance
-* Multi-agent simulation
-* Autonomous indoor delivery robots
-
-
-
-# Notes
-
-* Always source the workspace after rebuilding:
-
-```bash
 source install/setup.bash
 ```
 
